@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap");
+header .container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+header .nav {
+  position: fixed;
+  background-color: #333;
+  top: 0;
+  left: 0;
+  right: 0;
+  -webkit-transition: 0.4s ease;
+  transition: 0.4s ease;
+}
+
+header .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 20px 0;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+header .nav ul {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+header .nav a {
+  color: white;
+  padding: 10px 15px;
+  text-decoration: none;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+header .nav:active {
+  background-color: white;
+  -webkit-box-shadow: 0 3px 10px rgba(0, 0, 0, 0.4);
+          box-shadow: 0 3px 10px rgba(0, 0, 0, 0.4);
+}
+
+header .nav:active a {
+  color: #333;
+}
+
+header .nav:active .container {
+  padding: 15px 0;
+}
+
+header .nav a.current,
+header .nav a:hover {
+  color: #ff0000;
+  font-weight: bolder;
+}
+/*# sourceMappingURL=main.css.map */
