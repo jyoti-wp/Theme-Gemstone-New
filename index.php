@@ -14,7 +14,7 @@
         <?php get_template_part('/template-parts/partner-section'); ?>
         <?php get_template_part('/template-parts/portfolio'); ?>
         <?php get_template_part('/template-parts/contact-section'); ?>
-        <?php get_template_part('/template-parts/my-work-section'); ?>
+        <?php get_template_part('/template-parts/feedback-section'); ?>
     </div>
 
     <?php get_footer(); ?>

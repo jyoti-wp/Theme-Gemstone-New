@@ -8,7 +8,7 @@
 </div>
 
 <!-- Third Parallax Image with Portfolio Text -->
-<div class="bgimg-3 w3-display-container w3-opacity-min">
+<div class="bgimg-3 w3-display-container w3-opacity-min" style="background-image: url(<?php echo get_theme_file_uri('/images/ruxat-photography-aEX4RIxNEY0-unsplash.jpg'); ?>)">
     <div class="w3-display-middle">
         <span class="w3-xxlarge w3-text-white w3-wide">CONTACT</span>
     </div>
