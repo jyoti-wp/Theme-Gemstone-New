@@ -13,7 +13,7 @@ if (!defined('GEMSTONE_BUILD_URI')) {
 
 function gemstone_files()
 {
-    wp_enqueue_script('main-gemstone-js', get_theme_file_uri('/main.js'), NULL, '1.0', true);
+    wp_enqueue_script('main-gemstone-js', GEMSTONE_BUILD_URI . '/js/main.js', ['jquery'], '1.0', true);
     wp_enqueue_style('gemstone_main_style', get_stylesheet_uri());
     wp_enqueue_style('main-css', GEMSTONE_BUILD_URI . '/main.css', false, '1.1', 'all');
 }
@@ -33,3 +33,9 @@ function add_google_fonts()
 {
     wp_enqueue_style('google_fonts', '//fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
 }
+
+function gemstone_features()
+{
+    add_theme_support('title-tag');
+}
+add_action('after_setup_theme', 'gemstone_features');
