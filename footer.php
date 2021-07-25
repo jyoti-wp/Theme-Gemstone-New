@@ -11,6 +11,7 @@
    </div>
    <p>Powered by <a href="https://www.jyotishukla.com" title="W3.CSS" target="_blank" class="w3-hover-text-green">jyotishukla.com</a></p>
 </footer>
+<script src="css/js/main.js"></script>
 </body>
 
 </html>
